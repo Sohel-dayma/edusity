@@ -1,12 +1,13 @@
 {
-  "homepage": "https://sohel-dayma.github.io/Educity_projectgit",
+  "homepage": " https://sohel-dayma.github.io/Educity_project/",
   "name": "edusity",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy" :"npm run build",
-    "deploy" : "gh-pages -d build",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
